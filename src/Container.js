@@ -81,6 +81,7 @@ export default {
     dragBeginDelay: Number,
     animationDuration: Number,
     autoScrollEnabled: { type: Boolean, default: true },
+    disableScrollOverlapDetection: { type: Boolean, default: false },
     lockAxis: String,
     dragClass: String,
     dropClass: String,
