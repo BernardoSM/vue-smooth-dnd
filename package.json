@@ -35,7 +35,7 @@
   "scripts": {
     "dev": "rollup -c build/rollup.js -w",
     "build": "rollup -c build/rollup.js",
-    "prepare": "rollup -c build/rollup.js",
+    "prepare": "npm run build",
     "demo": "cd demo && npm run dev",
     "lint": "./node_modules/.bin/eslint src/*",
     "test": "jest --watchAll --verbose",
